@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 15px;
+    width: 450px;
+   
+
+}
+h1{
+    text-align: center;
+}
+#screen{
+    padding: 4px;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid black;
+    font-size: 1.3rem;
+    width: 410px;
+}
+td{
+    height: 40px;
+    width: 50px;
+    transition: 200ms;
+    border: 2px solid black;
+}
+td:active{
+    transform: scale(0.8);
+}
+button{
+height: 100%;
+width: 100px;
+cursor: pointer;
+font-size: 1.3rem;
+
+}
+table{
+margin: 20px auto;
+}
+button:hover{
+    background-color: rgb(29, 182, 234);
+    border: 2px solid rgb(252, 0, 0);
+
+}
